@@ -37,6 +37,5 @@ export const auth = betterAuth({
       partitioned: true,
     },
   },
-  baseURL:
-    "https://finance-mikebalderasanchez-beam-projects.vercel.app/api/auth",
+  baseURL: "https://finance-api-olive.vercel.app/api/auth",
 });
