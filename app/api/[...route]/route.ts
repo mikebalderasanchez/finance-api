@@ -3,9 +3,7 @@ import { handle } from "hono/vercel";
 import { auth } from "../../../lib/auth";
 import { cors } from "hono/cors";
 
-export const config = {
-  runtime: "edge",
-};
+export const runtime = "edge";
 
 const app = new Hono<{
   Variables: {
